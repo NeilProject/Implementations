@@ -1,0 +1,13 @@
+# If Neil.lua is there. Ignore it!
+# Those files are then only there because I needed them for testing, but as they can easily get outdated, you should always obtain it from its original repository
+Neil.lua
+
+# This is just some internal use files I need
+MKL*
+*.MKL.*
+
+# If ever used on Mac useless files that MacOS should NEVER have created in the first place should NOT end up in this repository
+.DS_Store
+._*
+
+

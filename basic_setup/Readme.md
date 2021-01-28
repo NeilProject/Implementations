@@ -9,3 +9,7 @@ This may not be the most ideal setup for all engines, especially not the ones wh
 
 Put this file into your main project directory, rename it if your enigne requires it, and copy Neil.lua to the same folder. 
 Then Start.Neil should be the file that actually engages your Neil project.
+
+
+# NOTICE!
+Using Neil bundles will not be possible as this requires full directories to be read. As the C programming language as no default libraries for that Lua doesn't support that, disabling this feature in Neil. If you have an eninge with directory read functions, Neil can be configured for this.

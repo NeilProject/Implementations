@@ -1,0 +1,37 @@
+// License Information:
+// ***********************************************************
+// love/love_main.neil
+// This particular file has been released in the public domain
+// and is therefore free of any restriction. You are allowed
+// to credit me as the original author, but this is not
+// required.
+// This file was setup/modified in:
+// 2021
+// If the law of your country does not support the concept
+// of a product being released in the public domain, while
+// the original author is still alive, or if his death was
+// not longer than 70 years ago, you can deem this file
+// "(c) Jeroen Broks - licensed under the CC0 License",
+// with basically comes down to the same lack of
+// restriction the public domain offers. (YAY!)
+// ***********************************************************
+// Version 21.01.28
+// End License Information
+import love
+group Love_CallBack
+
+	int cnt
+	
+	void Draw()
+		Love.graphics.print("A small step for a man, but a giant leap for mankind! ("..cnt..")",20,200)
+	end
+	
+	void Update()
+		cnt++
+	end
+	
+	void Load()
+		cnt = -2000
+	end
+	
+end
